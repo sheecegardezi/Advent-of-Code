@@ -3,60 +3,58 @@ link to problem: http://adventofcode.com/2017/day/3
 author: sheece gardezi
 """
 import math
-
 def getDimentionOfGrid(number):
     i = 1
     while number > math.pow(i, 2):
         i=i+2
     return i
-#x=361527
-x=12
 
-dimentions=getDimentionOfGrid(x)
-halfOfDimention=math.floor((dimentions)/2)
-print(dimentions)
+input=361527
 
+#find the length of side of recangle in which the number exists 
+#using the fact that max number in each rectange will be square of odd number 
+dimentions=getDimentionOfGrid(input)
+
+#calaculte the corner value of the rectangle
 corner0=math.pow(dimentions,2)
 corner1=corner0+1*(1-dimentions)
 corner2=corner0+2*(1-dimentions)
 corner3=corner0+3*(1-dimentions)
-corner4s=corner0+4*(1-dimentions)+1
+corner0alis=corner0+4*(1-dimentions)
 
-print("x: ",x)
-print("Corner0: ",corner0)
-print("Corner1: ",corner1)
-print("Corner2: ",corner2)
-print("Corner2: ",corner3)
-print("corner4s: ",corner4s)
+#check if number exist at right-bottom corner
+if input in [corner0,corner1,corner2,corner3] :
+    answer= dimentions-1
 
-#down row
-if x >= corner0:
-    ySteps=halfOfDimention-(x-corner1)
-    print("c1_ySteps: ",ySteps)
+#check if number exist at bottom row    
+if input > corner1:
+    ySteps=math.floor(dimentions/2)
+    xSteps=((corner0-corner1)/2+corner1)-input
+    
+    answer=abs(xSteps)+abs(ySteps)
 
-if x >= corner1:
-    ySteps=halfOfDimention-(x-corner1)
-    print("c1_ySteps: ",ySteps)
-#left coloum
-elif x >= corner2:
-    ySteps=halfOfDimention-(x-corner2)
-    print("c2_ySteps: ",ySteps)
-#up row
-elif x >= corner3 :
-    ySteps=halfOfDimention-(x-corner3)
-    print("c3_ySteps: ",ySteps)
-#right coloum
-elif x+1 >= corner4s:
-    ySteps = halfOfDimention+(x-corner4s)-1
-    print("c4_ySteps: ",ySteps)
+#check if number exist at left row     
+elif input > corner2:
 
-xSteps=halfOfDimention
-print("xSteps: ",xSteps)
+    xSteps=math.floor(dimentions/2)
+    ySteps=((corner1-corner2)/2+corner2)-input
+    
+    answer=abs(xSteps)+abs(ySteps)
+    
 
-print(abs(xSteps)+abs(ySteps))
-
-#if number in right/left coloum, horizontal sets are as follows
-#print(math.floor((dimentions)/2))
-
-#if number in right/left coloum,vertical steps are
-#print(math.floor((dimentions)/2)-(temparyValue-x))
+#check if number exist at top row   
+elif input > corner3:
+    ySteps=math.floor(dimentions/2)
+    xSteps=((corner2-corner3)/2+corner3)-input
+    
+    answer=abs(xSteps)+abs(ySteps)
+    
+#check if number exist at right row   
+elif input > corner0alis :
+    
+    xSteps=math.floor(dimentions/2)
+    ySteps=((corner3-corner0alis)/2+corner0alis)-input
+    
+    answer=abs(xSteps)+abs(ySteps)
+    
+print(answer)
