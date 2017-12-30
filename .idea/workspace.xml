@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0293e765-21b5-48db-b425-f420fd8bca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day90.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/90.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day91.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/91.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/90.txt" afterPath="$PROJECT_DIR$/input/90.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day90.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day90.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day90.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="82">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <element signature="e#335#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day91.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day91.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#335#347#0" expanded="true" />
               </folding>
@@ -39,6 +52,16 @@
       </file>
       <file leaf-file-name="90.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/90.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="91.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/91.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="22088" lean-forward="false" selection-start-line="0" selection-start-column="22088" selection-end-line="0" selection-end-column="22088" />
@@ -60,8 +83,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/input/90.txt" />
         <option value="$PROJECT_DIR$/day90.py" />
+        <option value="$PROJECT_DIR$/input/90.txt" />
+        <option value="$PROJECT_DIR$/input/91.txt" />
+        <option value="$PROJECT_DIR$/day91.py" />
       </list>
     </option>
   </component>
@@ -112,6 +137,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/input" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -124,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day90">
+  <component name="RunManager" selected="Python.day91">
     <configuration name="day31" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,14 +189,33 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="day91" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Advent-of-Code" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day91.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.day31" />
       <item index="1" class="java.lang.String" itemvalue="Python.day90" />
+      <item index="2" class="java.lang.String" itemvalue="Python.day91" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.day90" />
-        <item index="1" class="java.lang.String" itemvalue="Python.day31" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.day91" />
+        <item index="1" class="java.lang.String" itemvalue="Python.day90" />
+        <item index="2" class="java.lang.String" itemvalue="Python.day31" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +289,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day90.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="e#335#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input/90.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/91.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22088" lean-forward="false" selection-start-line="0" selection-start-column="22088" selection-end-line="0" selection-end-column="22088" />
@@ -248,10 +315,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day90.py">
+    <entry file="file://$PROJECT_DIR$/day91.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="127">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#335#347#0" expanded="true" />
           </folding>
