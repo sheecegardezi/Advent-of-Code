@@ -20,28 +20,39 @@ file = open("input/100.txt", "r")
 
 lengths=[]
 for line in file:
-    for number in line.strip().split(' '):
+    for number in line.strip().split(','):
         lengths.append(int(number.strip(',')))
 
 circularList=[]
-for i in range(0,5):
+for i in range(0,256):
     circularList.append(i)
 
-currentIndex=0
-skip=0
+currentPosition=0
+skipSize=0
 currentLength=0
 
 #create sub list to be reversed
 for currentLength in lengths:
-    sublist=[]
-    for i in range(currentLength):
 
-        if (currentIndex+i) >= len(circularList):
-            currentElement=circularList[ int((currentIndex+i) % len(circularList))]
+
+    sublist=[]
+    if (currentPosition + currentLength) < len(circularList):
+
+        for i in range(currentPosition, currentPosition+currentLength):
+            currentElement=circularList[i]
             sublist.append(currentElement)
-        else:
-            currentElement=circularList[ (currentIndex+i)]
+
+
+
+    else:
+        for i in range(currentPosition, len(circularList)):
+            currentElement= circularList[ i]
             sublist.append(currentElement)
+
+        for i in range(0,len(circularList)-currentLength+1):
+            currentElement = circularList[i]
+            sublist.append(currentElement)
+
 
     #reverse list
     reversedSubList=[]
@@ -51,9 +62,13 @@ for currentLength in lengths:
     #update circular list
     for i in range(len(reversedSubList)):
 
-        if i+currentIndex >= len(circularList):
-            circularList[i + currentIndex-len(circularList)] = reversedSubList[i]
+        if i+currentPosition >= len(circularList):
+            circularList[i + currentPosition - len(circularList)] = reversedSubList[i]
         else:
-            circularList[i+currentIndex]=reversedSubList[i]
+            circularList[i + currentPosition]=reversedSubList[i]
 
-    print(circularList)
+
+    currentPosition= (currentPosition + skipSize + currentLength) % len(circularList)
+    skipSize= skipSize + 1
+
+print(circularList[0]*circularList[1], circularList)
