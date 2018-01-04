@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0293e765-21b5-48db-b425-f420fd8bca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day110.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/110.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day111.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day120.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/120.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day100.py" afterPath="$PROJECT_DIR$/day100.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/100.txt" afterPath="$PROJECT_DIR$/input/100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day110.py" afterPath="$PROJECT_DIR$/day110.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="day100.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day100.py">
+      <file leaf-file-name="day110.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day110.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#338#350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="95" column="44" lean-forward="false" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day110.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day110.py">
+      <file leaf-file-name="day111.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="69" lean-forward="false" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+            <state relative-caret-position="-1028">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day120.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day120.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="120.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/120.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="1999" column="19" lean-forward="false" selection-start-line="1999" selection-start-column="19" selection-end-line="1999" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -44,16 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="21670" lean-forward="false" selection-start-line="0" selection-start-column="21670" selection-end-line="0" selection-end-column="21670" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="100.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/100.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -71,9 +79,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>initialX</find>
+      <find>initialY</find>
+      <find>startposition</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -90,14 +102,17 @@
         <option value="$PROJECT_DIR$/day100.py" />
         <option value="$PROJECT_DIR$/110.py" />
         <option value="$PROJECT_DIR$/input/110.txt" />
+        <option value="$PROJECT_DIR$/day120.py" />
+        <option value="$PROJECT_DIR$/input/120.txt" />
+        <option value="$PROJECT_DIR$/day111.py" />
         <option value="$PROJECT_DIR$/day110.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="703" />
+    <option name="x" value="902" />
     <option name="y" value="23" />
-    <option name="width" value="1197" />
+    <option name="width" value="998" />
     <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -158,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day110">
+  <component name="RunManager" selected="Python.day120">
     <configuration name="day100" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +208,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="day31" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day120" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -205,7 +220,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Advent-of-Code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day31.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day120.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,19 +260,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.day31" />
-      <item index="1" class="java.lang.String" itemvalue="Python.day90" />
-      <item index="2" class="java.lang.String" itemvalue="Python.day91" />
-      <item index="3" class="java.lang.String" itemvalue="Python.day100" />
-      <item index="4" class="java.lang.String" itemvalue="Python.day110" />
+      <item index="0" class="java.lang.String" itemvalue="Python.day90" />
+      <item index="1" class="java.lang.String" itemvalue="Python.day91" />
+      <item index="2" class="java.lang.String" itemvalue="Python.day100" />
+      <item index="3" class="java.lang.String" itemvalue="Python.day110" />
+      <item index="4" class="java.lang.String" itemvalue="Python.day120" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.day110" />
-        <item index="1" class="java.lang.String" itemvalue="Python.day100" />
-        <item index="2" class="java.lang.String" itemvalue="Python.day91" />
-        <item index="3" class="java.lang.String" itemvalue="Python.day90" />
-        <item index="4" class="java.lang.String" itemvalue="Python.day31" />
+        <item index="0" class="java.lang.String" itemvalue="Python.day120" />
+        <item index="1" class="java.lang.String" itemvalue="Python.day110" />
+        <item index="2" class="java.lang.String" itemvalue="Python.day100" />
+        <item index="3" class="java.lang.String" itemvalue="Python.day91" />
+        <item index="4" class="java.lang.String" itemvalue="Python.day90" />
       </list>
     </recent_temporary>
   </component>
@@ -275,10 +290,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="703" y="23" width="1197" height="1097" extended-state="0" />
-    <editor active="true" />
+    <frame x="902" y="23" width="998" height="1097" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21553884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25851703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297561" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -302,8 +316,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="startposition" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day100.py">
@@ -311,7 +334,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#338#350#0" expanded="true" />
+            <element signature="e#338#350#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -416,6 +439,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#338#350#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input/100.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -432,20 +465,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day100.py">
+    <entry file="file://$PROJECT_DIR$/input/120.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#338#350#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="629">
+          <caret line="1999" column="19" lean-forward="false" selection-start-line="1999" selection-start-column="19" selection-end-line="1999" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day120.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day110.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="69" lean-forward="false" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        <state relative-caret-position="292">
+          <caret line="95" column="44" lean-forward="false" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="44" />
           <folding />
         </state>
       </provider>

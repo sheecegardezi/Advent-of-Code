@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # # -*- coding: utf-8 -*-
 """
-title           :day110.py
+title           :day111.py
 description     :Link to problem: http://adventofcode.com/2017/day/11
 author          :Sheece Gardezi
 date            :2018/1/4
 version         :1.0
-usage           :python day110.py
+usage           :python day111.py
 python_version  :3.6.1
 """
 
@@ -57,10 +57,11 @@ for step in steps:
         startposition[0] = startposition[0]-2
         startposition[1] = startposition[1]+1
 
-    tempStartposition = startposition
-
+    tempStartposition = [startposition[0],startposition[1]]
     distance = 0
+
     while tempStartposition[0] != 0 or tempStartposition[1] != 0 :
+
         #north
         if tempStartposition[0] == 0 and tempStartposition[1] > 0 :
             tempStartposition[0] = tempStartposition[0]
@@ -93,19 +94,19 @@ for step in steps:
 
         #south west
         elif tempStartposition[0] < 0 and tempStartposition[1] < 0 :
-            startposition[0] = startposition[0] + 2
-            startposition[1] = startposition[1] + 1
+            tempStartposition[0] = tempStartposition[0] + 2
+            tempStartposition[1] = tempStartposition[1] + 1
 
             distance = distance + 1
 
         #north west
-        elif startposition[0] < 0 and startposition[1] > 0 :
-            startposition[0] = startposition[0] + 2
-            startposition[1] = startposition[1] - 1
+        elif tempStartposition[0] < 0 and tempStartposition[1] > 0 :
+            tempStartposition[0] = tempStartposition[0] + 2
+            tempStartposition[1] = tempStartposition[1] - 1
 
             distance = distance + 1
 
-    print(distance)
+
     if distance > maxDistance:
         maxDistance = distance
 
